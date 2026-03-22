@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+   <link href="style.css" rel="stylesheet">
+   <title>Abertura de chamado</title>
+  </head>
+  <body>
+
+    <h1>Abertura de chamado técnico</h1>
+
+    <form action="https://formsubmit.co/marcos.reiter1976@gmail.com" method="POST" enctype="multipart/form-data">
+
+      <h3>Sala:</h3>
+      <select name="Sala" required>
+        <option value="">Selecione</option>
+        <option>G01</option>
+        <option>G02</option>
+      </select>
+
+      <h3>Professor:</h3>
+      <select name="Professor" required>
+        <option value="">Selecione</option>
+        <option>João</option>
+        <option>Maria</option>
+      </select>
+
+      <h3>Descrição:</h3>
+      <input type="text" name="Defeito" placeholder="Descreva o problema" required>
+    
+      <h3>Seu nome:</h3>
+      <input type="text" name="nome" required>
+
+      <h3>Seu email:</h3>
+      <input type="email" name="email" required>
+
+      <br><br>
+      <input type="file" name="arquivo" accept="image/*" capture="environment">
+      <br>
+      <br>
+      <button type="submit">Enviar</button> 
+
+    </form>
+
+  </body>
+</html>
